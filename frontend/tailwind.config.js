@@ -23,6 +23,7 @@ module.exports = {
         "black-secondary": "#141414",
         "green" : "#4CAF50",
         "red": "#500505",
+        "lightred": "#BA0000",
         "grey" : "#757575",
         "txtgrey": "#5A5A5F",
         "icongrey":"#636363",

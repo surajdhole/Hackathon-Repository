@@ -4,20 +4,13 @@ import Link from "next/link";
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
+import LeftLogo from "../__Components/LeftLogo";
 
 export default function SignUp() {
     return ( 
         <main className="flex min-h-screen flex-col  p-10  text-center text-white">
           {" "}
-          <Image
-            src="/LogoIcon.svg"
-            alt="Eco Path Logo"
-            // className="dark:invert"
-            className="mb-10 text-left"
-            width={41}
-            height={41}
-            priority
-          />
+          <LeftLogo/>
         <p className="font-normal text-base my-5 text-txtgrey items-center">
             Personalised solution for CO2 consumption and air pollution control,
             enhancing initial health and wellbeing
