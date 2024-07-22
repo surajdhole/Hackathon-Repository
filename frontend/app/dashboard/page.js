@@ -3,11 +3,21 @@ import { CalendarTodayOutlined, MapsHomeWorkOutlined, MasksOutlined, WindowOutli
 import LeftLogo from "../__Components/LeftLogo";
 import Calendar from "../__Components/Calendar";
 import AirPSummary from "../__Components/Dashboard/Airpollution";
+import Image from "next/image";
 
 export default function Dashboard() {
     return ( 
         <main className="flex min-h-screen flex-col p-10 overflow-scroll">
 
+            <div className="absolute -z-10 inset-0 bg-gradient-to-r from-bgStart from-10% to-bgFade to-100%">
+            <Image
+                    src="/mainBG.svg"
+                    alt="Background Image of Belfast City Hall"
+                    // className="dark:invert"
+                    className="object-cover bg-gradient-to-r from-bgStart to-bgFade"
+                    fill
+                    priority/>
+</div>
             <div className="flex flex-row justify-between">
                 <LeftLogo/>
                 <CalendarTodayOutlined/>

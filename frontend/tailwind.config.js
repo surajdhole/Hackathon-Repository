@@ -27,6 +27,11 @@ module.exports = {
         "grey" : "#757575",
         "txtgrey": "#5A5A5F",
         "icongrey":"#636363",
+        "bgStart": "rgba(255, 255, 255, 0.15)",
+        "bgFade" : " rgba(255, 255, 255, 0) ",
+        "test": "linear-gradient(from 180deg at 0% 100%, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) )"
+
+
 
       },
     },
